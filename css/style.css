@@ -1,0 +1,119 @@
+body {
+    background-image: url(img/carlos-gonzalez-demon-slayer-02_2.jpg);
+}
+
+
+article {
+    margin-top: 10%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 1%;
+    background-color: white;
+
+}
+nav {
+    margin-left: -27.12%;
+    margin-bottom: 1%;
+    background-color: white;
+    position: fixed;
+    top: -10px; /* Hide the navbar 50 px outside of the top view */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+a {
+    color: rgb(99, 100, 100);
+    text-decoration: none;
+
+}
+
+
+a:hover {
+    color: rgb(0, 0, 0);
+}
+
+
+footer {
+    margin-top: 3%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 1%;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    
+}
+
+li {
+
+    padding-left: 5%;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-bottom: 1%;
+    display: inline;
+    margin-right: 10px;
+}
+
+h2 {
+    padding-top: 1%;
+    padding-left: 2%;
+    color: rgb(0, 0, 0);
+
+}
+
+
+
+
+p {
+    color: rgb(0, 0, 0);
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 16px;
+    
+}
+
+
+
+footer > p {
+    padding-right: 2%;
+}
+
+.container {
+    display: flex;
+
+
+  }
+
+.container_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+.img_2 {
+    max-width: 100%;
+    flex-basis: 10%;
+    width: 50%;
+    height: 50%;
+    
+    
+  }
+.image {
+
+
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+
+    
+  }
+
+
+footer > div > p {
+    text-align: center;
+}
