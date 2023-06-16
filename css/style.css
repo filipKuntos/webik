@@ -1,5 +1,6 @@
 body {
-    background-image: url(img/carlos-gonzalez-demon-slayer-02_2.jpg);
+    /*background-image: url(img/carlos-gonzalez-demon-slayer-02_2.jpg);*/
+    background-color: white;
     margin: 0;
 
 }
@@ -9,12 +10,14 @@ article {
 
     margin-left: -3%;
     margin-right: 6%;
-    background-color: white;
+    background-color: rgb(211, 209, 209);
+
+
 
 }
 nav {
     margin-bottom: 1%;
-    background-color: white ;
+    background-color: black ;
     position: fixed;
     margin-left: -28.8%;
     top: -10px; /* Hide the navbar 50 px outside of the top view */
@@ -27,13 +30,13 @@ nav + article {
 }
 
 a {
-    color: rgb(93, 13, 66);
+    color: rgb(226, 156, 203);
     text-decoration: none;
 
 }
 
 .kim_1 {
-    padding-left: 6%;
+    padding-left: 5%;
     padding-right: 6%;
 
 }
@@ -43,15 +46,19 @@ a {
 }
 
 a:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
+
 
 
 footer {
     margin-left: -3%;
-    margin-right: 6%;
     margin-bottom: 1%;
-    background-color: white;
+    bottom: -18px;
+    background-color: black;
+    position: fixed;
+    margin-left: -28.8%;
+    width: 100%; /* Full width */
 }
 
 ul {
@@ -66,7 +73,7 @@ li {
 
     padding-left: 4%;
     font-size: 20px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     display: inline;
     margin-right: 50px;
@@ -80,6 +87,10 @@ h2 {
 
 }
 
+p > div > footer{
+    text-align: center;
+    color: aliceblue;
+}
 
 
 
@@ -93,9 +104,7 @@ p {
 
 
 
-footer > p {
-    padding-right: 2%;
-}
+
 
 .container {
     display: flex;
@@ -136,4 +145,6 @@ footer > p {
 
 footer > div > p {
     text-align: center;
+    color: aliceblue;
 }
+
